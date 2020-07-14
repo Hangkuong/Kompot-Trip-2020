@@ -140,7 +140,7 @@ body{
 footer{
     height: fit-content;
     text-align: center;
-    padding: 15px 15px;
+    padding: 5px 5px;
     display: flex;
     color: white;
     background-color: #252522;
@@ -214,7 +214,7 @@ footer .contact-bar{
         left: 0;
         right: 0;
         bottom: 0;
-        width: 93%;
+        width: 98%;
         color: white; 
         text-align: center;
         height: max-content;
@@ -223,7 +223,7 @@ footer .contact-bar{
         font-family: 'Roboto', sans-serif;
     }
     footer .contact-bar{
-        width: 80%;
+        width: 90%;
         margin: 20px auto;
         text-align: center;
     }
@@ -238,17 +238,19 @@ footer .contact-bar{
     }
     footer .contact-us .contact-detail{
         float: none;
+        font-size: x-small;
         width: 30%;
         margin: 10px auto;
+        margin: 10px;
         text-align: center;
         align-items: center;
-        display: inline-block;
     }
     footer .contact-us .contact-detail img{
         float: none;
         margin: auto;
     }
     footer .contact-us .contact-detail .contact-info{
+        width: max-content;
         margin: auto;
     }
     footer .contact-bar #copyright{
