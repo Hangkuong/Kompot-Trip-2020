@@ -124,6 +124,9 @@ body{
     text-align: justify;
     overflow: hidden;
 }
+.post p, .post h5{
+    font-family: 'Indie Flower', cursive;
+}
 .post .picture-container{
     display: flex;
     overflow: scroll;
