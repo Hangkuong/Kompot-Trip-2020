@@ -7,7 +7,7 @@ html{
     position: relative;
 }
 body{
-    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Indie Flower', cursive;
 }
 .top-panel{
     top: 0;
@@ -109,6 +109,7 @@ body{
     margin: auto;
     text-align: center;
     background-color: antiquewhite; 
+    font-family: 'Cedarville Cursive', cursive;
 }
 .day {
     padding: 5px 2px;
@@ -116,6 +117,7 @@ body{
 }
 .day h3{
     margin: 5px 0px;
+    font-family: 'Cedarville Cursive', cursive;
 }               
 .day .post{
     background: linear-gradient(rgba(236, 161, 161, 0.2), rgb(255, 183, 183)), bisque;
@@ -124,12 +126,12 @@ body{
     text-align: justify;
     overflow: hidden;
 }
-.post p, .post h5{
-    font-family: 'Indie Flower', cursive;
-}
 .post .picture-container{
     display: flex;
     overflow: scroll;
+}
+.post .picture-container::-webkit-scrollbar{
+    display: none;
 }
 .post .picture-container img{
     margin: 5px 5px;
